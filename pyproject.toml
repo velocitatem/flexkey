@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flexkey"
+version = "0.1.0"
+description = "A Pandas DataFrame extension to unify variant column name lookups."
+readme = "README.md"
+authors = [
+  { name="Daniel Rosel", email="daniel@alves.world" }
+]
+keywords = ["pandas", "dataframe", "alias", "column-name"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "pandas >= 1.0.0"
+]
