@@ -23,7 +23,7 @@ Just import **Flexkey**, and your column worries are gone:
 
 ```python
 import pandas as pd
-from pandas_key_alias.dataframe import DataFrame
+from flexkey.dataframe import DataFrame
 
 # Your DataFrame, your rules
 data = {
